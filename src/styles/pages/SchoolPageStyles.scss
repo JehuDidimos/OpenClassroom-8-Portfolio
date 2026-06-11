@@ -1,0 +1,28 @@
+@import "../helpers/spacing.scss";
+@import "../helpers/font.scss";
+@import "../helpers/colors.scss";
+
+.school-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 24px 70px rgba(24, 32, 47, 0.12);
+  margin: $space-xl;
+  padding: $space-xl;
+  border-radius: 8px;
+  width: 80vw;
+}
+
+.school-title{
+  font-size: $fontsize-xl;
+  margin-top: 0;
+}
+
+.school-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 2.5rem;
+  place-items: center;
+}

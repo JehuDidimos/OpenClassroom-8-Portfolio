@@ -1,4 +1,5 @@
 import ButtonComponent from "../components/ButtonComponent";
+import "../styles/pages/WelcomePageStyles.scss"
 
 export default function WelcomePage(){
     return(

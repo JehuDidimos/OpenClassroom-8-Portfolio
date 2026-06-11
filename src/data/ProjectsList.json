@@ -1,0 +1,37 @@
+[
+  {
+    "id": "project-001",
+    "title": "Portfolio Website",
+    "githubUrl": "https://github.com/your-username/portfolio-website",
+    "imageUrl": "",
+    "tags": ["React", "JavaScript", "SCSS", "Responsive Design"]
+  },
+  {
+    "id": "project-002",
+    "title": "Book Rating App",
+    "githubUrl": "https://github.com/your-username/book-rating-app",
+    "imageUrl": "",
+    "tags": ["React", "Node.js", "Express", "MongoDB", "JWT"]
+  },
+  {
+    "id": "project-003",
+    "title": "E-Commerce Checkout",
+    "githubUrl": "https://github.com/your-username/ecommerce-checkout",
+    "imageUrl": "",
+    "tags": ["React", "Stripe", "Firebase Auth", "CSS"]
+  },
+  {
+    "id": "project-004",
+    "title": "Task Manager API",
+    "githubUrl": "https://github.com/your-username/task-manager-api",
+    "imageUrl": "",
+    "tags": ["Node.js", "Express", "PostgreSQL", "REST API"]
+  },
+  {
+    "id": "project-005",
+    "title": "Weather Dashboard",
+    "githubUrl": "https://github.com/your-username/weather-dashboard",
+    "imageUrl": "",
+    "tags": ["JavaScript", "React", "API Integration", "Tailwind CSS"]
+  }
+]

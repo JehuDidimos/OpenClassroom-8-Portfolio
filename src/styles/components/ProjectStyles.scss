@@ -1,0 +1,61 @@
+@import "../helpers/spacing.scss";
+@import "../helpers/font.scss";
+@import "../helpers/colors.scss";
+
+.card-overlay {
+  position: absolute;
+  min-width: 300px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.158);
+  z-index: 2;
+  transition: 0.3s;
+}
+
+.card-overlay:hover{
+    background: rgba(255, 255, 255, 0.063);
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.project-card {
+  max-width: 340px;
+  min-width: 250px;
+  min-height: 250px;
+  position: relative;
+  overflow: hidden;
+  background-color: $color-red;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 0;
+  }
+
+  p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: $space-lg;
+    color: $color-white;
+    font-size: 14px;
+    font-weight: 700;
+    z-index: 2;
+    pointer-events: none;
+  }
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}

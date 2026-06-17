@@ -21,8 +21,27 @@
 }
 
 .school-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
-  gap: 2.5rem;
+  display: flex;
+  flex-direction: column;
   place-items: center;
+}
+
+.school-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: $space-md;
+  padding: $space-lg;
+}
+
+.school-name {
+  font-size: $fontsize-l;
+  margin: 0;
+  font-weight: 600;
+}
+
+.school-degree {
+  font-size: $fontsize-m;
+  color: $color-gray;
+  margin: 0;
 }

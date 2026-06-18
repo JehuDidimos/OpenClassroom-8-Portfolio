@@ -1,0 +1,47 @@
+@import "../helpers/spacing.scss";
+@import "../helpers/font.scss";
+@import "../helpers/colors.scss";
+
+.work-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 24px 70px rgba(24, 32, 47, 0.12);
+  margin: $space-xl;
+  padding: $space-xl;
+  border-radius: 8px;
+  width: 80vw;
+}
+
+.work-title{
+  font-size: $fontsize-xl;
+  margin-top: 0;
+}
+
+.work-grid {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.work-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: $space-md;
+  padding: $space-lg;
+}
+
+.work-name {
+  font-size: $fontsize-l;
+  margin: 0;
+  font-weight: 600;
+}
+
+.work-degree {
+  font-size: $fontsize-m;
+  color: $color-gray;
+  margin: 0;
+}

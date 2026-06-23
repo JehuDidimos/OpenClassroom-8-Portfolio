@@ -7,8 +7,7 @@ export default function WelcomePage() {
       <p className="eyebrow">Jehu Didimos Portfolio</p>
       <h1 id="welcome-title">Fullstack Portfolio</h1>
       <p className="intro">
-        This starter page is ready for your portfolio projects, case studies,
-        and class work. Build from here and make it yours.
+        Welcome, I’m Jehu Didimos, a software developer focused on creating responsive, user-friendly, and well-structured web applications. This portfolio showcases my experience across front-end and back-end development, including projects built with React, JavaScript, Node.js, Express, MongoDB, HTML, CSS, and Sass.
       </p>
       <div className="actions">
         <ButtonComponent></ButtonComponent>

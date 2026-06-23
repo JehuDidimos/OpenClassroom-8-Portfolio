@@ -1,5 +1,6 @@
 import "../styles/pages/WorkExperiencePageStyles.scss";
 import bannerImage from "../images/pnc.jpg";
+import bannerImage2 from "../images/pnc2.jpg";
 import BannerComponent from "../components/BannerComponent";
 
 export default function WorkExperiencePage() {
@@ -12,10 +13,10 @@ export default function WorkExperiencePage() {
           <h3 className="work-name">PNC Bank</h3>
           <p className="work-degree">Intern/Technology Development Program 2021 - 2024</p>
         </div>
-        <BannerComponent imageSource={bannerImage} size="large" />
+        <BannerComponent imageSource={bannerImage2} size="large" />
         <div className="work-info">
           <h3 className="work-name">PNC Bank</h3>
-          <p className="work-degree"> Software Engineer 2024 - 2025</p>
+          <p className="work-degree"> Software Engineer 2024 - Present</p>
         </div>
       </section>
     </main>

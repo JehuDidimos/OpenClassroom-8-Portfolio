@@ -2,7 +2,10 @@ import ProjectComponent from "../components/ProjectComponent";
 import projects from "../data/ProjectsList.json";
 import "../styles/pages/ProjectsPageStyles.scss";
 
+
 export default function ProjectsPage() {
+  
+
   return (
     <main className="projects-page">
       <h2 className="project-title">Projects</h2>

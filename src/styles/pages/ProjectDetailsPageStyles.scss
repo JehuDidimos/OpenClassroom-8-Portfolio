@@ -1,0 +1,123 @@
+@import "../helpers/spacing.scss";
+@import "../helpers/font.scss";
+@import "../helpers/colors.scss";
+
+.project-details-page{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 24px 70px rgba(24, 32, 47, 0.12);
+  margin: $space-xl;
+  padding: $space-xl;
+  border-radius: 8px;
+  width: 80vw;
+}
+
+
+.project-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-icon-rating{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.project-dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 80vw;
+    margin: $space-md 0;
+    column-gap: $space-xxl;
+}
+
+.project-title{
+  font-size: $fontsize-xl;
+  margin-top: 0;
+}
+
+.project-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: $space-sm;
+    img{
+        width: clamp(2rem, 5.5vw, 4rem);
+        border-radius: 50%;
+    }
+}
+.description{
+    font-size: clamp(#{$fontsize-xs}, 2vw, #{$fontsize-m});
+    font-weight: 400;
+    margin-top: $space-sm;
+    margin-bottom: $space-lg;
+}
+
+.host-name{
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(#{$fontsize-xs}, 2vw, #{$fontsize-m});
+    font-weight: 500;
+    color: $color-red;
+}
+
+.tags{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    column-gap: $space-sm;
+}
+
+.dropdown-container{
+        padding: $space-md 0
+}
+
+@media(max-width: 830px){
+    .project-content{
+        flex-direction: column;
+    }
+    .project-dropdown{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-icon-rating{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .project-descrption{
+        flex-direction: row;
+    }
+
+    .location{
+        margin: $space-sm 0;
+    }
+
+    .tags{
+        margin: $space-sm 0;
+    }
+
+    .project-icons{
+        img{
+            width: clamp(2rem, 8vw, 4rem);
+        }
+    }
+
+    .host-name{
+        font-size: clamp(#{$fontsize-xs}, 3vw, #{$fontsize-m});
+    }
+
+    .dropdown-container{
+        padding: $space-lg 0
+    }
+}
+

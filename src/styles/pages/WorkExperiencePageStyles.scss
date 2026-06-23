@@ -41,7 +41,6 @@
 }
 
 .work-degree {
-  font-size: $fontsize-m;
-  color: $color-gray;
+  font-size: clamp(#{$fontsize-xs}, 2vw, #{$fontsize-m});  
   margin: 0;
 }

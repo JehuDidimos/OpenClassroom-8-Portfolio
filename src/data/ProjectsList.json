@@ -1,37 +1,47 @@
 [
   {
     "id": "project-001",
-    "title": "Portfolio Website",
+    "title": "Gilmore Book Website",
     "githubUrl": "https://github.com/your-username/portfolio-website",
-    "imageUrl": "",
-    "tags": ["React", "JavaScript", "SCSS", "Responsive Design"]
+    "imageUrl": "/src/images/Book.png",
+    "imageCardUrl": "/src/images/BookCard.png",
+    "description": "Developed the back end of a book rating website using Node.js, Express, and MongoDB. The project focused on building a RESTful API, connecting the server to a MongoDB database, and creating data models with Mongoose. I implemented CRUD functionality for managing books and ratings, user authentication, image upload and optimization, and average rating calculations. The application was structured using MVC architecture and followed backend development best practices, including data security, efficient database management, and Green Code principles to reduce unnecessary resource usage.",
+    "tags": ["MongoDB", "JavaScript", "Node", "RestFUL API", "Express"]
   },
   {
     "id": "project-002",
-    "title": "Book Rating App",
+    "title": "Booki Website",
     "githubUrl": "https://github.com/your-username/book-rating-app",
-    "imageUrl": "",
-    "tags": ["React", "Node.js", "Express", "MongoDB", "JWT"]
+    "imageUrl": "/src/images/Booki.png",
+    "imageCardUrl": "/src/images/BookiCard.png",
+    "description": "Built a responsive travel agency homepage using HTML and CSS, based on provided Figma mockups for mobile, tablet, and desktop layouts. The project focused on accurately translating design specifications into clean, structured code while ensuring the interface adapted smoothly across different screen sizes. This project strengthened my skills in responsive web design, semantic HTML, CSS layout techniques, and mockup-to-code implementation. It also gave me practical experience building user-friendly interfaces that provide a consistent experience across devices.",
+    "tags": ["HTML", "CSS", "Responsive Design"]
   },
   {
     "id": "project-003",
-    "title": "E-Commerce Checkout",
+    "title": "Kasa Rental Website",
     "githubUrl": "https://github.com/your-username/ecommerce-checkout",
-    "imageUrl": "",
-    "tags": ["React", "Stripe", "Firebase Auth", "CSS"]
+    "imageUrl": "/src/images/Kasa.png",
+    "imageCardUrl": "/src/images/KasaCard.png",
+    "description": "Built a modern, responsive front-end application using React and React Router. The project focused on creating reusable React components, presenting data from a local JSON file, and implementing smooth page navigation across multiple views. I developed the interface based on provided mockups, using Sass to organize styles efficiently and enhance the user experience with CSS animations. This project strengthened my skills in component-based architecture, client-side routing, responsive design, data rendering, and front-end UI development. It also gave me practical experience building a polished single-page application that feels interactive, organized, and user-friendly.",
+    "tags": ["React", "HTML", "CSS", "Responsive Design"]
   },
   {
     "id": "project-004",
-    "title": "Task Manager API",
+    "title": "Website Optimization",
     "githubUrl": "https://github.com/your-username/task-manager-api",
-    "imageUrl": "",
-    "tags": ["Node.js", "Express", "PostgreSQL", "REST API"]
+    "imageUrl": "/src/images/Performance.png",
+    "description": "Optimized a website’s SEO, performance, and accessibility by identifying technical issues, analyzing audit results, and applying targeted improvements to the codebase. I used tools such as Lighthouse and WAVE to evaluate loading speed, accessibility, and SEO performance, then implemented changes to improve code structure, page performance, and overall user experience. The project also included creating a before-and-after report with audit screenshots, explanations of the improvements made, and the impact those changes had on SEO and accessibility.",
+    "imageCardUrl": "/src/images/PerformanceCard.png",
+    "tags": ["Performance", "Optimization", "Accessibility"]
   },
   {
     "id": "project-005",
-    "title": "Weather Dashboard",
+    "title": "Interior Design Website",
     "githubUrl": "https://github.com/your-username/weather-dashboard",
-    "imageUrl": "",
-    "tags": ["JavaScript", "React", "API Integration", "Tailwind CSS"]
+    "imageUrl": "/src/images/Sophie.png",
+    "description": "Developed a dynamic interior designer website using JavaScript, focusing on DOM manipulation, user event handling, and API integration. The project included building interactive front-end features, creating an administrator login page, and developing a modal interface for uploading new media. I worked with provided HTML, Figma mockups, backend API functionality, Visual Studio Code, and GitHub version control. This project strengthened my skills in JavaScript, API communication, interactive UI development, authentication flow, and building dynamic web pages for modern web applications.",
+    "imageCardUrl": "/src/images/SophieCard.png",
+    "tags": ["HTML", "CSS"]
   }
 ]

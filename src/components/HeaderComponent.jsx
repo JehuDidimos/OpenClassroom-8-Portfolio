@@ -8,16 +8,16 @@ function HeaderComponent() {
 
       <div className="nav-buttons">
         <div>
-          <a href="/#welcome">Home</a>
+          <a href="/OpenClassroom-8-Portfolio/#welcome">Home</a>
         </div>
         <div>
-          <a href="/#projects">Projects</a>
+          <a href="/OpenClassroom-8-Portfolio/#projects">Projects</a>
         </div>
         <div>
-          <a href="/#school">School</a>
+          <a href="/OpenClassroom-8-Portfolio/#school">School</a>
         </div>
         <div>
-          <a href="/#work">Work</a>
+          <a href="/OpenClassroom-8-Portfolio/#work">Work</a>
         </div>
       </div>
     </div>

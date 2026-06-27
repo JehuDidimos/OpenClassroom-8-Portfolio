@@ -9,14 +9,14 @@
   text-align: center;
   background-color: rgba(255, 255, 255, 0);
   box-shadow: 0 24px 70px rgba(24, 32, 47, 0.12);
-  margin: $space-xl;
-  padding: $space-xl;
+  margin: 0 auto;
+  padding: clamp(#{$space-lg}, 5vw, #{$space-xl});
   border-radius: 8px;
-  width: 80vw;
+  width: min(100%, 1120px);
 }
 
-.school-title{
-  font-size: $fontsize-xl;
+.school-title {
+  font-size: clamp(#{$fontsize-l}, 6vw, #{$fontsize-xl});
   margin-top: 0;
 }
 
@@ -24,6 +24,7 @@
   display: flex;
   flex-direction: column;
   place-items: center;
+  height: fit-content;
 }
 
 .school-info {
@@ -31,17 +32,17 @@
   flex-direction: column;
   justify-content: center;
   gap: $space-md;
-  padding: $space-lg;
+  padding: clamp(#{$space-md}, 4vw, #{$space-lg});
 }
 
 .school-name {
-  font-size: $fontsize-l;
+  font-size: clamp(#{$fontsize-m}, 5vw, #{$fontsize-l});
   margin: 0;
   font-weight: 600;
 }
 
 .school-degree {
-  font-size: clamp(#{$fontsize-xs}, 2vw, #{$fontsize-m});  
+  font-size: clamp(#{$fontsize-s}, 2.5vw, #{$fontsize-m});
   margin: 0;
   font-weight: 400;
 }

@@ -8,16 +8,16 @@ function HeaderComponent() {
 
       <div className="nav-buttons">
         <div>
-          <a href="#welcome">Home</a>
+          <a href="/#welcome">Home</a>
         </div>
         <div>
-          <a href="#projects">Projects</a>
+          <a href="/#projects">Projects</a>
         </div>
         <div>
-          <a href="#school">School</a>
+          <a href="/#school">School</a>
         </div>
         <div>
-          <a href="#work">Work</a>
+          <a href="/#work">Work</a>
         </div>
       </div>
     </div>

@@ -1,8 +1,10 @@
+import "../styles/components/ButtonStyles.scss";
+
 export default function ButtonComponent(prop){
     return(
         <>
         <a
-            href="https://github.com/JehuDidimos"
+            href={prop.url}
             target="_blank"
             rel="noreferrer"
             aria-label="Visit Jehu Didimos on GitHub"

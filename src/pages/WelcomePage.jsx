@@ -10,7 +10,7 @@ export default function WelcomePage() {
         Welcome, I’m Jehu Didimos, a software developer focused on creating responsive, user-friendly, and well-structured web applications. This portfolio showcases my experience across front-end and back-end development, including projects built with React, JavaScript, Node.js, Express, MongoDB, HTML, CSS, and Sass.
       </p>
       <div className="actions">
-        <ButtonComponent></ButtonComponent>
+        <ButtonComponent url = "https://github.com/JehuDidimos"></ButtonComponent>
       </div>
     </section>
   );

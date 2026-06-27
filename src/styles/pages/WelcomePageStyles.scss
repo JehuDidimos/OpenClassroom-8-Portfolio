@@ -4,11 +4,21 @@
 
 .welcome-panel {
   width: min(100%, 720px);
-  padding: clamp(32px, 7vw, 64px);
+  padding: clamp(24px, 7vw, 64px);
   border: 1px solid rgba(24, 32, 47, 0.12);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.78);
   box-shadow: 0 24px 70px rgba(24, 32, 47, 0.12);
   text-align: center;
   margin-top: $space-xl;
+
+  p {
+    padding: clamp(8px, 3vw, 20px);
+  }
+}
+
+@media (max-width: 640px) {
+  .welcome-panel {
+    margin-top: $space-lg;
+  }
 }

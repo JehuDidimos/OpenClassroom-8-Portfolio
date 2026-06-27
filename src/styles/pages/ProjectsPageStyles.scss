@@ -9,20 +9,20 @@
   text-align: center;
   background-color: rgba(255, 255, 255, 0);
   box-shadow: 0 24px 70px rgba(24, 32, 47, 0.12);
-  margin: $space-xl;
-  padding: $space-xl;
+  margin: 0 auto;
+  padding: clamp(#{$space-lg}, 5vw, #{$space-xl});
   border-radius: 8px;
-  width: 80vw;
+  width: min(100%, 1120px);
 }
 
-.project-title{
-  font-size: $fontsize-xl;
+.project-title {
+  font-size: clamp(#{$fontsize-l}, 6vw, #{$fontsize-xl});
   margin-top: 0;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
-  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: clamp(#{$space-lg}, 5vw, 2.5rem);
   place-items: center;
 }

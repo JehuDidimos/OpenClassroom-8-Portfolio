@@ -2,46 +2,68 @@
   {
     "id": "project-001",
     "title": "Gilmore Book Website",
-    "githubUrl": "https://github.com/your-username/portfolio-website",
+    "githubUrl": "https://github.com/JehuDidimos/OpenClassroom-6-Book",
     "imageUrl": "/src/images/Book.png",
     "imageCardUrl": "/src/images/BookCard.png",
-    "description": "Developed the back end of a book rating website using Node.js, Express, and MongoDB. The project focused on building a RESTful API, connecting the server to a MongoDB database, and creating data models with Mongoose. I implemented CRUD functionality for managing books and ratings, user authentication, image upload and optimization, and average rating calculations. The application was structured using MVC architecture and followed backend development best practices, including data security, efficient database management, and Green Code principles to reduce unnecessary resource usage.",
-    "tags": ["MongoDB", "JavaScript", "Node", "RestFUL API", "Express"]
+    "description": "Built the back end for a book rating platform where the main challenge was supporting secure user actions, image uploads, ratings, and reliable book data without letting the API become difficult to maintain. I solved this by designing a RESTful Node.js and Express API with MongoDB and Mongoose models, organizing the code with MVC architecture, and implementing authentication, CRUD operations, image optimization, and average rating calculations. The result was a structured backend that balanced data security, maintainability, efficient database usage, and Green Code practices.",
+    "tags": [
+      "MongoDB",
+      "JavaScript",
+      "Node",
+      "RestFUL API",
+      "Express"
+    ]
   },
   {
     "id": "project-002",
     "title": "Booki Website",
-    "githubUrl": "https://github.com/your-username/book-rating-app",
+    "githubUrl": "https://github.com/JehuDidimos/OpenClass-Project1",
     "imageUrl": "/src/images/Booki.png",
     "imageCardUrl": "/src/images/BookiCard.png",
-    "description": "Built a responsive travel agency homepage using HTML and CSS, based on provided Figma mockups for mobile, tablet, and desktop layouts. The project focused on accurately translating design specifications into clean, structured code while ensuring the interface adapted smoothly across different screen sizes. This project strengthened my skills in responsive web design, semantic HTML, CSS layout techniques, and mockup-to-code implementation. It also gave me practical experience building user-friendly interfaces that provide a consistent experience across devices.",
-    "tags": ["HTML", "CSS", "Responsive Design"]
+    "description": "Created a responsive travel agency homepage from Figma mockups where the key challenge was preserving the intended design across mobile, tablet, and desktop without duplicating layouts. I overcame this by using semantic HTML, flexible CSS layouts, careful spacing, and responsive breakpoints to adapt the same structure across screen sizes. The finished page delivered a consistent user experience while strengthening my ability to translate design requirements into clean, maintainable front-end code.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Responsive Design"
+    ]
   },
   {
     "id": "project-003",
     "title": "Kasa Rental Website",
-    "githubUrl": "https://github.com/your-username/ecommerce-checkout",
+    "githubUrl": "https://github.com/JehuDidimos/OpenClassroom-5-Kasa",
     "imageUrl": "/src/images/Kasa.png",
     "imageCardUrl": "/src/images/KasaCard.png",
-    "description": "Built a modern, responsive front-end application using React and React Router. The project focused on creating reusable React components, presenting data from a local JSON file, and implementing smooth page navigation across multiple views. I developed the interface based on provided mockups, using Sass to organize styles efficiently and enhance the user experience with CSS animations. This project strengthened my skills in component-based architecture, client-side routing, responsive design, data rendering, and front-end UI development. It also gave me practical experience building a polished single-page application that feels interactive, organized, and user-friendly.",
-    "tags": ["React", "HTML", "CSS", "Responsive Design"]
+    "description": "Developed a responsive React rental application where the challenge was turning static mockups and local JSON data into a smooth multi-page experience. I addressed this by breaking the interface into reusable components, using React Router for client-side navigation, rendering property data dynamically, and organizing Sass styles for consistency across views. This approach produced a polished single-page application while demonstrating problem solving in component architecture, routing, responsive UI design, and data-driven rendering.",
+    "tags": [
+      "React",
+      "HTML",
+      "CSS",
+      "Responsive Design"
+    ]
   },
   {
     "id": "project-004",
     "title": "Website Optimization",
-    "githubUrl": "https://github.com/your-username/task-manager-api",
+    "githubUrl": "https://github.com/JehuDidimos/OpenClassroom-4",
     "imageUrl": "/src/images/Performance.png",
-    "description": "Optimized a website’s SEO, performance, and accessibility by identifying technical issues, analyzing audit results, and applying targeted improvements to the codebase. I used tools such as Lighthouse and WAVE to evaluate loading speed, accessibility, and SEO performance, then implemented changes to improve code structure, page performance, and overall user experience. The project also included creating a before-and-after report with audit screenshots, explanations of the improvements made, and the impact those changes had on SEO and accessibility.",
+    "description": "Improved an existing website where the challenge was diagnosing why its SEO, performance, and accessibility scores were underperforming. I used Lighthouse and WAVE audits to identify specific technical issues, then applied targeted code and content improvements to address loading speed, accessibility barriers, and search visibility. I documented the process with before-and-after audit results, showing how each fix improved the site's quality, usability, and discoverability.",
     "imageCardUrl": "/src/images/PerformanceCard.png",
-    "tags": ["Performance", "Optimization", "Accessibility"]
+    "tags": [
+      "Performance",
+      "Optimization",
+      "Accessibility"
+    ]
   },
   {
     "id": "project-005",
     "title": "Interior Design Website",
-    "githubUrl": "https://github.com/your-username/weather-dashboard",
+    "githubUrl": "https://github.com/JehuDidimos/OpenClass2",
     "imageUrl": "/src/images/Sophie.png",
-    "description": "Developed a dynamic interior designer website using JavaScript, focusing on DOM manipulation, user event handling, and API integration. The project included building interactive front-end features, creating an administrator login page, and developing a modal interface for uploading new media. I worked with provided HTML, Figma mockups, backend API functionality, Visual Studio Code, and GitHub version control. This project strengthened my skills in JavaScript, API communication, interactive UI development, authentication flow, and building dynamic web pages for modern web applications.",
+    "description": "Built a dynamic interior designer portfolio where the challenge was adding real interactivity to a static front end while connecting it to backend API features. I solved this by using JavaScript for DOM manipulation, event handling, API communication, an administrator login flow, and a modal interface for uploading new media. The project strengthened my ability to turn design mockups into interactive user flows while managing authentication, asynchronous data, and front-end state changes.",
     "imageCardUrl": "/src/images/SophieCard.png",
-    "tags": ["HTML", "CSS"]
+    "tags": [
+      "HTML",
+      "CSS"
+    ]
   }
 ]

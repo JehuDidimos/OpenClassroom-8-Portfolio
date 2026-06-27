@@ -36,7 +36,7 @@ a {
   flex-direction: column;
   min-height: 100vh;
   place-items: center;
-  padding: 32px;
+  padding: clamp(16px, 4vw, 32px);
   background:
     linear-gradient(135deg, rgba(28, 112, 128, 0.14), transparent 34%),
     linear-gradient(315deg, rgba(224, 95, 70, 0.16), transparent 38%), #f6f4ef;
@@ -44,7 +44,7 @@ a {
 }
 
 .page-shell section {
-  min-height: 100vh;
+  min-height: 55vh;
   width: 100%;
   scroll-snap-align: start;
   padding: 48px 0;
@@ -62,6 +62,7 @@ a {
   font-weight: 800;
   letter-spacing: 0;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -80,59 +81,34 @@ h1 {
   line-height: 1.7;
 }
 
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 32px;
-}
 
-.actions a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  min-width: 140px;
-  padding: 12px 18px;
-  border: 1px solid rgba(24, 32, 47, 0.16);
-  border-radius: 8px;
-  background: #18202f;
-  color: #ffffff;
-  font-weight: 700;
-  text-decoration: none;
-  transition:
-    transform 160ms ease,
-    box-shadow 160ms ease,
-    background 160ms ease;
-}
 
-.actions a:nth-child(2) {
-  background: #ffffff;
-  color: #18202f;
-}
 
-.actions a:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 24px rgba(24, 32, 47, 0.16);
-}
 
-.button-icon {
-  width: 20px;
-  height: 20px;
-  flex: 0 0 auto;
-}
 
-@media (max-width: 520px) {
+@media (max-width: 900px) {
   .page-shell {
-    padding: 16px;
+    scroll-snap-type: none;
   }
 
-  .welcome-panel {
-    padding: 28px 20px;
+  .page-shell section {
+    min-height: auto;
+    padding: 36px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-shell section {
+    padding: 28px 0;
   }
 
-  .actions {
-    flex-direction: column;
+  h1 {
+    font-size: clamp(2.25rem, 12vw, 5rem);
   }
+
+  .intro {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
 }

@@ -5,19 +5,24 @@ import TagComponent from "../components/TagComponent";
 import "../styles/pages/ProjectDetailsPageStyles.scss";
 import BannerComponent from "../components/BannerComponent";
 import ButtonComponent from "../components/ButtonComponent";
+import { resolveProjectImage } from "../data/projectImages";
 
 export default function ProjectDetailsPage() {
-  let param = useParams();
+  const param = useParams();
   const [project, setProject] = useState({});
+
   useEffect(() => {
-    let project = projects.filter((project) => project.id == param.id);
-    console.log(project.at(0));
-    setProject(project.at(0));
+    const matchingProject = projects.find((project) => project.id === param.id);
+    setProject(matchingProject);
   }, [param.id]);
+
   return (
     <div className="project-details-page">
       <h2 className="project-title">{project?.title}</h2>
-      <BannerComponent size="large" imageSource={project.imageUrl} />
+      <BannerComponent
+        size="large"
+        imageSource={resolveProjectImage(project?.imageUrl)}
+      />
       <div className="project-details">
         <p className="description">{project?.description}</p>
         <div className="tags">
@@ -27,7 +32,7 @@ export default function ProjectDetailsPage() {
         </div>
       </div>
       <div className="actions">
-        <ButtonComponent url={project.githubUrl}></ButtonComponent>
+        <ButtonComponent url={project?.githubUrl}></ButtonComponent>
       </div>
     </div>
   );

@@ -13,10 +13,10 @@
 
 .nav-buttons{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: clamp(#{$space-md}, calc(0.5rem + 5cqw), 8rem);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: $space-g;
     div{
-        text-align: center;
+        text-align: start;
         width:auto;
         font-family: 'Montserrat';
         font-weight: 500;
